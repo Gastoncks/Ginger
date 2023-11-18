@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ginger",
+	"version": "${version}",
+	"name": "Ginger",
+	"description": "This is the mod: 'Ginger' ",
+	"authors": [
+		"Gastoncks"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ginger/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.gastoncks.ginger.Ginger"
+		],
+		"client": [
+			"fr.gastoncks.ginger.GingerClient"
+		],
+		"fabric-datagen": [
+			"fr.gastoncks.ginger.GingerDataGenerator"
+		]
+	},
+	"mixins": [
+		"ginger.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
