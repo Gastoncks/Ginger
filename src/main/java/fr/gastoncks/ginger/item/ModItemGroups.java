@@ -13,11 +13,10 @@ public class ModItemGroups {
     public static final ItemGroup GINGER_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Ginger.MOD_ID, "ginger"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ginger"))
-                    .icon(()  -> new ItemStack(ModItems.GINGER)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.GINGER);
+                    .icon(()  -> new ItemStack(ModItems.GINGER)).entries((displayContext, entries) ->
+                            entries.add(ModItems.GINGER)
 
-
-                    }).build());
+                    ).build());
 
     public static void registerItemGroups() {
         Ginger.LOGGER.info("Registering Item Group for" + Ginger.MOD_ID);
