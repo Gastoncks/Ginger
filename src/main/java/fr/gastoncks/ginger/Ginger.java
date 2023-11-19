@@ -1,5 +1,6 @@
 package fr.gastoncks.ginger;
 
+import fr.gastoncks.ginger.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class Ginger implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+        ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
