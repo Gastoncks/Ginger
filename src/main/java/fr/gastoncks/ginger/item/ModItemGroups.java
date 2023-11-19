@@ -14,7 +14,7 @@ public class ModItemGroups {
             new Identifier(Ginger.MOD_ID, "ginger"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ginger"))
                     .icon(()  -> new ItemStack(ModItems.GINGER)).entries((displayContext, entries) -> {
-                            entries.add(ModItems.GINGER);
+                        entries.add(ModItems.GINGER);
 
 
                     }).build());
