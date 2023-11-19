@@ -1,3 +1,5 @@
 {
-    "item.ginger.ginger" : "Ginger"
+    "item.ginger.ginger" : "Ginger",
+
+    "itemgroup.ginger" : "Ginger Mod"
 }
