@@ -12,11 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item GINGER = registerItem("ginger", new Item(new FabricItemSettings()));
+    public static final Item CANDIED_GINGER = registerItem("candied_ginger", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(GINGER);
     }
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Ginger.MOD_ID, name), item);
     }
