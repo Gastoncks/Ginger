@@ -1,6 +1,7 @@
 package fr.gastoncks.ginger.item;
 
 import fr.gastoncks.ginger.Ginger;
+import fr.gastoncks.ginger.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,8 +18,10 @@ public class ModItemGroups {
                     entries.add(ModItems.GINGER);
                     entries.add(ModItems.CANDIED_GINGER);
 
-                    }).build());
+                    entries.add(ModBlocks.CANDIED_GINGER_BLOCK);
 
+
+                }).build());
     public static void registerItemGroups() {
         Ginger.LOGGER.info("Registering Item Group for" + Ginger.MOD_ID);
     }
