@@ -2,5 +2,7 @@
     "item.ginger.ginger" : "Ginger",
     "item.ginger.candied_ginger" : "Candied Ginger",
 
+    "block.ginger.candied_ginger_block" : "Candied Ginger Block",
+
     "itemgroup.ginger" : "Ginger Mod"
 }
