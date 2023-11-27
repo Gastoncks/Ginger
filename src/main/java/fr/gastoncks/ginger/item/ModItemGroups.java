@@ -19,8 +19,6 @@ public class ModItemGroups {
                     entries.add(ModItems.CANDIED_GINGER);
 
                     entries.add(ModBlocks.CANDIED_GINGER_BLOCK);
-
-
                 }).build());
     public static void registerItemGroups() {
         Ginger.LOGGER.info("Registering Item Group for" + Ginger.MOD_ID);
