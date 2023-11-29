@@ -10,7 +10,8 @@
     }
   },
   "pattern": [
-    "BEB"
+    "BB",
+    "EB"
   ],
   "result": {
     "item": "ginger:candied_ginger"
