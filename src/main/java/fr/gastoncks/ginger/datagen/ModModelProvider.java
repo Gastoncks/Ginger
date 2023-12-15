@@ -23,6 +23,5 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CANDIED_GINGER, Models.GENERATED);
         itemModelGenerator.register(ModItems.GINGER, Models.GENERATED);
-        ;
     }
 }

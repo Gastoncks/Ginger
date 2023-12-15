@@ -28,7 +28,6 @@ public class ModBlocks {
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(Ginger.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
-
     }
 
     public static void registerModBlocks() {
