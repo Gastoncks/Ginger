@@ -7,6 +7,7 @@ import fr.gastoncks.ginger.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import fr.gastoncks.ginger.block.custom.GingerCropBlock;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -16,7 +17,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CANDIED_GINGER_BLOCK);
-
+        blockStateModelGenerator.registerCrop(ModBlocks.GINGER_CROP, GingerCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
 
     @Override
