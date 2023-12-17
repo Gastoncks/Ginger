@@ -6,8 +6,8 @@ import fr.gastoncks.ginger.block.ModBlocks;
 import fr.gastoncks.ginger.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
 import fr.gastoncks.ginger.block.custom.GingerCropBlock;
+import net.minecraft.data.client.Models;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -23,6 +23,5 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CANDIED_GINGER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.GINGER, Models.GENERATED);
     }
 }

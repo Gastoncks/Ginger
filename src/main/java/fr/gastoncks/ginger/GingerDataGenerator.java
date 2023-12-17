@@ -1,8 +1,6 @@
 package fr.gastoncks.ginger;
 
-import fr.gastoncks.ginger.datagen.ModBlockTagProvider;
-import fr.gastoncks.ginger.datagen.ModLootTableProvider;
-import fr.gastoncks.ginger.datagen.ModModelProvider;
+import fr.gastoncks.ginger.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -12,7 +10,9 @@ public class GingerDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }
