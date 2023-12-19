@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "ginger:block/ginger_crop_stage0"
+  }
+}

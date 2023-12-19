@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ginger:candied_ginger_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "ginger:candied_ginger"
+  }
+}
