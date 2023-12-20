@@ -14,8 +14,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item GINGER = registerItem("ginger",
-            new AliasedBlockItem(ModBlocks.GINGER_CROP, new FabricItemSettings().food(ModFoodComponents.GINGER)));
-    public static final Item CANDIED_GINGER = registerItem("candied_ginger", new Item(new FabricItemSettings()));
+            new AliasedBlockItem(ModBlocks.GINGER_CROP,
+            new FabricItemSettings().food(ModFoodComponents.GINGER)));
+    public static final Item CANDIED_GINGER = registerItem("candied_ginger",
+            new Item(
+            new FabricItemSettings().food(ModFoodComponents.CANDIED_GINGER)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(GINGER);
