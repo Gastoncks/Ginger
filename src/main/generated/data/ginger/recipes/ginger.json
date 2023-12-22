@@ -2,6 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
     "R": {
       "item": "ginger:ginger"
     },
@@ -10,9 +13,9 @@
     }
   },
   "pattern": [
-    "SSS",
+    "GSG",
     "SRS",
-    "SSS"
+    "GSG"
   ],
   "result": {
     "item": "ginger:candied_ginger"

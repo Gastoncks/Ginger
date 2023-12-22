@@ -24,13 +24,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.CANDIED_GINGER_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CANDIED_GINGER, 1)
-                .pattern("SSS")
+                .pattern("GSG")
                 .pattern("SRS")
-                .pattern("SSS")
+                .pattern("GSG")
                 .input('S', Items.SUGAR)
                 .input('R', ModItems.GINGER)
+                .input('G', Items.GOLD_INGOT)
                 .criterion(hasItem(Items.SUGAR), conditionsFromItem(Items.SUGAR))
                 .criterion(hasItem(ModItems.GINGER), conditionsFromItem(ModItems.GINGER))
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.GINGER)));
     }
 }

@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CANDIED_GINGER_BLOCK = registerBlock("candied_ginger_block",
-        new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+        new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(1.5F, 6.0F)));
 
     public static final Block GINGER_CROP = Registry.register(Registries.BLOCK, new Identifier(Ginger.MOD_ID, "ginger_crop"),
             new GingerCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
