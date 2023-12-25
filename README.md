@@ -15,7 +15,15 @@
 - Now creeper has `0.1` chance of drop ginger when is kill
 
 - New item `Candied Ginger`, it is the improvement of ginger which is crafted with 4 sugars around a ginger and gold in the corners, it gives speed 2 for 60s and makes you lose 1.5 hearts
-
+e
 - New block `Candied Ginger Block`, a block of candied ginger
-  
+
+### Dependencies
+
+Requires Fabric API
+
+### Author 
+
+Gastoncks : modding, texturing, datagen, idea, goat, very beautiful and other little think...
+
 </div>
